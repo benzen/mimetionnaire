@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		09939D1F19E8109F00D41448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09939D1E19E8109F00D41448 /* AppDelegate.swift */; };
-		09939D2119E8109F00D41448 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09939D2019E8109F00D41448 /* FirstViewController.swift */; };
-		09939D2319E8109F00D41448 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09939D2219E8109F00D41448 /* SecondViewController.swift */; };
 		09939D2619E8109F00D41448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09939D2419E8109F00D41448 /* Main.storyboard */; };
-		09939D2819E8109F00D41448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09939D2719E8109F00D41448 /* Images.xcassets */; };
 		09939D2B19E8109F00D41448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09939D2919E8109F00D41448 /* LaunchScreen.xib */; };
 		09939D3719E8109F00D41448 /* Mime_tionnaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09939D3619E8109F00D41448 /* Mime_tionnaireTests.swift */; };
+		09939D4119E814E300D41448 /* MimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09939D4019E814E300D41448 /* MimeModel.swift */; };
+		099FCF6719E818E80035F371 /* AjouterMimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099FCF5F19E818E80035F371 /* AjouterMimeController.swift */; };
+		099FCF6A19E818E80035F371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099FCF6519E818E80035F371 /* Images.xcassets */; };
+		099FCF6B19E818E80035F371 /* ListerMimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099FCF6619E818E80035F371 /* ListerMimeController.swift */; };
+		099FCF6D19E828AB0035F371 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FCF6C19E828AB0035F371 /* AVFoundation.framework */; };
+		099FCF6F19E828B70035F371 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FCF6E19E828B70035F371 /* CoreMedia.framework */; };
+		099FCF7119E828C30035F371 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FCF7019E828C30035F371 /* MediaPlayer.framework */; };
+		09E7D5E319E8EFB800634D9F /* MimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E7D5E219E8EFB800634D9F /* MimeStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +35,19 @@
 		09939D1919E8109F00D41448 /* Mime-tionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mime-tionnaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09939D1D19E8109F00D41448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09939D1E19E8109F00D41448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09939D2019E8109F00D41448 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		09939D2219E8109F00D41448 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		09939D2519E8109F00D41448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09939D2719E8109F00D41448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09939D2A19E8109F00D41448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		09939D3019E8109F00D41448 /* Mime-tionnaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mime-tionnaireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09939D3519E8109F00D41448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09939D3619E8109F00D41448 /* Mime_tionnaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mime_tionnaireTests.swift; sourceTree = "<group>"; };
+		09939D4019E814E300D41448 /* MimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeModel.swift; sourceTree = "<group>"; };
+		099FCF5F19E818E80035F371 /* AjouterMimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AjouterMimeController.swift; sourceTree = "<group>"; };
+		099FCF6519E818E80035F371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		099FCF6619E818E80035F371 /* ListerMimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListerMimeController.swift; sourceTree = "<group>"; };
+		099FCF6C19E828AB0035F371 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		099FCF6E19E828B70035F371 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		099FCF7019E828C30035F371 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		09E7D5E219E8EFB800634D9F /* MimeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MimeStore.swift; path = ../MimeStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099FCF7119E828C30035F371 /* MediaPlayer.framework in Frameworks */,
+				099FCF6F19E828B70035F371 /* CoreMedia.framework in Frameworks */,
+				099FCF6D19E828AB0035F371 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,9 @@
 		09939D1019E8109F00D41448 = {
 			isa = PBXGroup;
 			children = (
+				099FCF7019E828C30035F371 /* MediaPlayer.framework */,
+				099FCF6E19E828B70035F371 /* CoreMedia.framework */,
+				099FCF6C19E828AB0035F371 /* AVFoundation.framework */,
 				09939D1B19E8109F00D41448 /* Mime-tionnaire */,
 				09939D3319E8109F00D41448 /* Mime-tionnaireTests */,
 				09939D1A19E8109F00D41448 /* Products */,
@@ -80,12 +96,14 @@
 			isa = PBXGroup;
 			children = (
 				09939D1E19E8109F00D41448 /* AppDelegate.swift */,
-				09939D2019E8109F00D41448 /* FirstViewController.swift */,
-				09939D2219E8109F00D41448 /* SecondViewController.swift */,
+				099FCF5F19E818E80035F371 /* AjouterMimeController.swift */,
+				09E7D5E219E8EFB800634D9F /* MimeStore.swift */,
+				099FCF6519E818E80035F371 /* Images.xcassets */,
+				099FCF6619E818E80035F371 /* ListerMimeController.swift */,
 				09939D2419E8109F00D41448 /* Main.storyboard */,
-				09939D2719E8109F00D41448 /* Images.xcassets */,
 				09939D2919E8109F00D41448 /* LaunchScreen.xib */,
 				09939D1C19E8109F00D41448 /* Supporting Files */,
+				09939D4019E814E300D41448 /* MimeModel.swift */,
 			);
 			path = "Mime-tionnaire";
 			sourceTree = "<group>";
@@ -196,8 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				09939D2619E8109F00D41448 /* Main.storyboard in Resources */,
+				099FCF6A19E818E80035F371 /* Images.xcassets in Resources */,
 				09939D2B19E8109F00D41448 /* LaunchScreen.xib in Resources */,
-				09939D2819E8109F00D41448 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09939D2319E8109F00D41448 /* SecondViewController.swift in Sources */,
+				099FCF6B19E818E80035F371 /* ListerMimeController.swift in Sources */,
+				09E7D5E319E8EFB800634D9F /* MimeStore.swift in Sources */,
 				09939D1F19E8109F00D41448 /* AppDelegate.swift in Sources */,
-				09939D2119E8109F00D41448 /* FirstViewController.swift in Sources */,
+				09939D4119E814E300D41448 /* MimeModel.swift in Sources */,
+				099FCF6719E818E80035F371 /* AjouterMimeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				09939D3C19E8109F00D41448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09939D3D19E8109F00D41448 /* Build configuration list for PBXNativeTarget "Mime-tionnaireTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				09939D3F19E8109F00D41448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

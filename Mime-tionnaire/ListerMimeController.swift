@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ListerMimeController.swift
 //  Mime-tionnaire
 //
 //  Created by Benjamin Dreux on 2014-10-10.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ListerMimeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
