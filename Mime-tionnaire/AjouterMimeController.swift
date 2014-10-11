@@ -21,8 +21,12 @@ class AjouterMimeController: UIViewController, UIImagePickerControllerDelegate, 
     @IBOutlet var cancelButton : UIButton!
     
     @IBAction func addMime(sender : AnyObject) {
+        self.model.nom = nomTextField.text
         let store = MimeStore()
-        store.addMime(model)
+        store.addMime(self.model)
+
+        self.navigationController?.popToRootViewControllerAnimated(true)
+
     }
     
     @IBAction func nomChanged(sender : AnyObject) {

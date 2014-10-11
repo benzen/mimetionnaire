@@ -12,18 +12,25 @@ class MimeStore{
     
     let storeKey = "mime-store"
     
-    var store: NSArray
+    var store: NSMutableArray
+    
+    let userDefaults = NSUserDefaults.standardUserDefaults()
     
     func addMime(mime: MimeModel){
-        self.store = self.store.arrayByAddingObject(mime)
+//        self.store = self.store.arrayByAddingObject(mime)
+        self.store.insertObject(mime, atIndex: self.store.count)
+        println(" nom "+mime.nom+" ")
+        userDefaults.synchronize()
     }
         
     init(){
-
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        self.store = userDefaults.objectForKey( storeKey ) as NSArray
-        if (self.store.count == 0 ) { self.store = [] }
-        userDefaults.setObject(self.store, forKey: self.storeKey)
+        let data: AnyObject? = userDefaults.objectForKey( storeKey )
+        if((data) == nil){
+            self.store = []
+            userDefaults.setObject(self.store, forKey: self.storeKey)
+        }else{
+            self.store = data as NSMutableArray
+        }
         userDefaults.synchronize()
 
     }
