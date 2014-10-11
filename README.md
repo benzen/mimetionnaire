@@ -1,4 +1,4 @@
-mimetionnaire
+mime-tionnaire
 =============
 
 Une application ios qui permet d'associer des mots et des videos.
@@ -12,6 +12,7 @@ Ce qu'on peut va pouvoir faire avec mimetionnaire
 
 - Ajouter un nouveau mime
 - Parcourir la liste de mime
+- Afficher un mime, lire la video
 - Rechercher un mime
 
 Crédits
