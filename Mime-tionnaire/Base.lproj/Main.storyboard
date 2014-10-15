@@ -82,6 +82,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="DMK-vx-mZ8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DMK-vx-mZ8" id="531-Oj-K94">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Vbs-nF-mC4" kind="push" identifier="playVideo" id="zOP-ut-gJw"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="8rJ-Kc-sve" id="dCa-5c-AnA"/>
                             <outlet property="delegate" destination="8rJ-Kc-sve" id="SvT-7U-MHt"/>
@@ -113,32 +125,14 @@
             <point key="canvasLocation" x="12" y="-353"/>
         </scene>
         <!--AV Player View Controller-->
-        <scene sceneID="n6H-ha-PGe">
+        <scene sceneID="6Sn-ul-aTK">
             <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="PyA-Kd-0Uo" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="2bc-05-XiH"/>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="Vbs-nF-mC4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3FT-Xo-NJo"/>
                 </avPlayerViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bY0-P8-c9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pz9-4d-UX9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="407" y="281"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="9Oo-dP-GCv">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="66B-pE-cT8" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3lf-aK-HuK"/>
-                        <viewControllerLayoutGuide type="bottom" id="RAC-Sc-w8t"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RrB-mK-vw8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZZq-kt-8fA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="12" y="371"/>
         </scene>
     </scenes>
     <resources>

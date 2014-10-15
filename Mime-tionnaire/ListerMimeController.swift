@@ -32,20 +32,21 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        let model = self.store.listMime()[indexPath.row] as MimeModel
-        playVideo(model.videoUrl)
+        self.performSegueWithIdentifier("playVideo", sender: self)
     }
     
-    func playVideo(videoUrl:String){
-        
-//        if let avpVC = childViewControllers.first as? AVPlayerViewController{
-        let avpVC = AVPlayerViewController()
-//        dispatch_async(dispatch_get_main_queue()){
-            let url = NSURL(string: videoUrl)
-            avpVC.player = AVPlayer.playerWithURL(url) as AVPlayer
-//        }
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if segue.identifier == "playVideo" {
+            let indexPath = tableView?.indexPathForSelectedRow()
+            let model = self.store.listMime()[indexPath!.row] as MimeModel
+            let url = NSURL(string: model.videoUrl)
+            if let subVC = segue.destinationViewController as? AVPlayerViewController {
+                subVC.player = AVPlayer(URL: url)
+                subVC.player.play()
+            }
+        }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
