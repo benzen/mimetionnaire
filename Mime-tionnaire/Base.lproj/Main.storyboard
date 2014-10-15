@@ -89,7 +89,7 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Omf-wo-st2">
-                        <barButtonItem key="leftBarButtonItem" title="Ajouter" id="NeO-ff-Y99">
+                        <barButtonItem key="rightBarButtonItem" title="Ajouter" systemItem="add" id="NeO-ff-Y99">
                             <connections>
                                 <segue destination="9pv-A4-QxB" kind="push" id="tYr-TC-44o"/>
                             </connections>
@@ -111,6 +111,34 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="12" y="-353"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="n6H-ha-PGe">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="PyA-Kd-0Uo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2bc-05-XiH"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bY0-P8-c9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="407" y="281"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Oo-dP-GCv">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="66B-pE-cT8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3lf-aK-HuK"/>
+                        <viewControllerLayoutGuide type="bottom" id="RAC-Sc-w8t"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RrB-mK-vw8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZZq-kt-8fA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>

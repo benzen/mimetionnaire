@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0993225219EB4CB500465225 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993225119EB4CB500465225 /* SQLiteDB.swift */; };
 		09939D1F19E8109F00D41448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09939D1E19E8109F00D41448 /* AppDelegate.swift */; };
 		09939D2619E8109F00D41448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09939D2419E8109F00D41448 /* Main.storyboard */; };
 		09939D2B19E8109F00D41448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09939D2919E8109F00D41448 /* LaunchScreen.xib */; };
@@ -18,7 +19,11 @@
 		099FCF6D19E828AB0035F371 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FCF6C19E828AB0035F371 /* AVFoundation.framework */; };
 		099FCF6F19E828B70035F371 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FCF6E19E828B70035F371 /* CoreMedia.framework */; };
 		099FCF7119E828C30035F371 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FCF7019E828C30035F371 /* MediaPlayer.framework */; };
-		09E7D5E319E8EFB800634D9F /* MimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E7D5E219E8EFB800634D9F /* MimeStore.swift */; };
+		09BEE52519ED87860009C6B7 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 097CC03219EC001A00BD8041 /* data.db */; };
+		09BEE52619ED8C3A0009C6B7 /* Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 0993225519EB545400465225 /* Bridging-Header.h */; };
+		09BEE52819ED8C830009C6B7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BEE52719ED8C830009C6B7 /* libsqlite3.0.dylib */; };
+		09F3C3E419EB645D00C32AED /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3C3E319EB645D00C32AED /* String-Extras.swift */; };
+		09F3C3E619EB654900C32AED /* MimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3C3E519EB654900C32AED /* MimeStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097CC03219EC001A00BD8041 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		0993225119EB4CB500465225 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = ../../SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
+		0993225319EB4D0300465225 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0993225519EB545400465225 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../../SQLiteDB/Bridging-Header.h"; sourceTree = "<group>"; };
 		09939D1919E8109F00D41448 /* Mime-tionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mime-tionnaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09939D1D19E8109F00D41448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09939D1E19E8109F00D41448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +56,9 @@
 		099FCF6C19E828AB0035F371 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		099FCF6E19E828B70035F371 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		099FCF7019E828C30035F371 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		09E7D5E219E8EFB800634D9F /* MimeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MimeStore.swift; path = ../MimeStore.swift; sourceTree = "<group>"; };
+		09BEE52719ED8C830009C6B7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		09F3C3E319EB645D00C32AED /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../../SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
+		09F3C3E519EB654900C32AED /* MimeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BEE52819ED8C830009C6B7 /* libsqlite3.0.dylib in Frameworks */,
 				099FCF7119E828C30035F371 /* MediaPlayer.framework in Frameworks */,
 				099FCF6F19E828B70035F371 /* CoreMedia.framework in Frameworks */,
 				099FCF6D19E828AB0035F371 /* AVFoundation.framework in Frameworks */,
@@ -74,6 +86,7 @@
 		09939D1019E8109F00D41448 = {
 			isa = PBXGroup;
 			children = (
+				09BEE52719ED8C830009C6B7 /* libsqlite3.0.dylib */,
 				099FCF7019E828C30035F371 /* MediaPlayer.framework */,
 				099FCF6E19E828B70035F371 /* CoreMedia.framework */,
 				099FCF6C19E828AB0035F371 /* AVFoundation.framework */,
@@ -95,9 +108,14 @@
 		09939D1B19E8109F00D41448 /* Mime-tionnaire */ = {
 			isa = PBXGroup;
 			children = (
+				097CC03219EC001A00BD8041 /* data.db */,
+				09F3C3E519EB654900C32AED /* MimeStore.swift */,
+				09F3C3E319EB645D00C32AED /* String-Extras.swift */,
+				0993225319EB4D0300465225 /* libsqlite3.dylib */,
+				0993225119EB4CB500465225 /* SQLiteDB.swift */,
 				09939D1E19E8109F00D41448 /* AppDelegate.swift */,
+				0993225519EB545400465225 /* Bridging-Header.h */,
 				099FCF5F19E818E80035F371 /* AjouterMimeController.swift */,
-				09E7D5E219E8EFB800634D9F /* MimeStore.swift */,
 				099FCF6519E818E80035F371 /* Images.xcassets */,
 				099FCF6619E818E80035F371 /* ListerMimeController.swift */,
 				09939D2419E8109F00D41448 /* Main.storyboard */,
@@ -213,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BEE52519ED87860009C6B7 /* data.db in Resources */,
 				09939D2619E8109F00D41448 /* Main.storyboard in Resources */,
 				099FCF6A19E818E80035F371 /* Images.xcassets in Resources */,
 				09939D2B19E8109F00D41448 /* LaunchScreen.xib in Resources */,
@@ -233,11 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BEE52619ED8C3A0009C6B7 /* Bridging-Header.h in Sources */,
 				099FCF6B19E818E80035F371 /* ListerMimeController.swift in Sources */,
-				09E7D5E319E8EFB800634D9F /* MimeStore.swift in Sources */,
+				09F3C3E619EB654900C32AED /* MimeStore.swift in Sources */,
 				09939D1F19E8109F00D41448 /* AppDelegate.swift in Sources */,
 				09939D4119E814E300D41448 /* MimeModel.swift in Sources */,
+				09F3C3E419EB645D00C32AED /* String-Extras.swift in Sources */,
 				099FCF6719E818E80035F371 /* AjouterMimeController.swift in Sources */,
+				0993225219EB4CB500465225 /* SQLiteDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +385,9 @@
 				INFOPLIST_FILE = "Mime-tionnaire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mime-tionnaire/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -373,6 +398,8 @@
 				INFOPLIST_FILE = "Mime-tionnaire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mime-tionnaire/Bridging-Header.h";
 			};
 			name = Release;
 		};

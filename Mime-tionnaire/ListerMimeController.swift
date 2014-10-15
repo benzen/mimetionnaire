@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -16,23 +18,34 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
     let store: MimeStore = MimeStore()
         
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        println("count line called \(store.store.count)" )
-        return store.store.count
+//        println("count line called \(store.listMime().count)" )
+//        return store.listMime().count
+        return  store.listMime().count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell:UITableViewCell = self.tableView?.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
         
-        let model: MimeModel = self.store.store[indexPath.row] as MimeModel
+        let model: MimeModel = self.store.listMime()[indexPath.row] as MimeModel
         cell.textLabel?.text = model.nom
-        
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        println("You selected cell #\(indexPath.row)!")
+        let model = self.store.listMime()[indexPath.row] as MimeModel
+        playVideo(model.videoUrl)
     }
     
+    func playVideo(videoUrl:String){
+        
+//        if let avpVC = childViewControllers.first as? AVPlayerViewController{
+        let avpVC = AVPlayerViewController()
+//        dispatch_async(dispatch_get_main_queue()){
+            let url = NSURL(string: videoUrl)
+            avpVC.player = AVPlayer.playerWithURL(url) as AVPlayer
+//        }
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

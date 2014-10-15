@@ -35,10 +35,9 @@ class AjouterMimeController: UIViewController, UIImagePickerControllerDelegate, 
 
     let model = MimeModel(nom:"", videoUrl:"")
     
-    func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
-        let selectedImage : UIImage = image
-        let url = editingInfo.objectForKey(UIImagePickerControllerMediaURL) as String
-        model.videoUrl = url
+    func imagePickerController(picker: UIImagePickerController!, didFinishPickingMediaWithInfo info: NSDictionary!){
+        var url = info.objectForKey(UIImagePickerControllerReferenceURL) as NSURL
+        model.videoUrl = url.absoluteString!
 
         self.dismissViewControllerAnimated(true, completion: nil)
         
@@ -57,7 +56,6 @@ class AjouterMimeController: UIViewController, UIImagePickerControllerDelegate, 
         ipController.allowsEditing = false
     
         self.presentViewController(ipController, animated: true, completion: nil)
-
 
     }
 

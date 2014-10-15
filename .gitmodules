@@ -1,0 +1,6 @@
+[submodule "SwiftData"]
+	path = SwiftData
+	url = git@github.com:ryanfowler/SwiftData.git
+[submodule "SQLite.swift"]
+	path = SQLite.swift
+	url = git@github.com:stephencelis/SQLite.swift.git
