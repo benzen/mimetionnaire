@@ -89,6 +89,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DMK-vx-mZ8" id="531-Oj-K94">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <gestureRecognizers/>
                                 <connections>
                                     <segue destination="Vbs-nF-mC4" kind="push" identifier="playVideo" id="zOP-ut-gJw"/>
                                 </connections>
@@ -103,7 +104,7 @@
                     <navigationItem key="navigationItem" id="Omf-wo-st2">
                         <barButtonItem key="rightBarButtonItem" title="Ajouter" systemItem="add" id="NeO-ff-Y99">
                             <connections>
-                                <segue destination="9pv-A4-QxB" kind="push" id="tYr-TC-44o"/>
+                                <segue destination="9pv-A4-QxB" kind="push" identifier="" id="tYr-TC-44o"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -121,6 +122,7 @@
                         <outlet property="searchResultsDelegate" destination="8rJ-Kc-sve" id="Q3W-ZP-orR"/>
                     </connections>
                 </searchDisplayController>
+                <swipeGestureRecognizer direction="left" id="hEv-we-QJE"/>
             </objects>
             <point key="canvasLocation" x="12" y="-353"/>
         </scene>

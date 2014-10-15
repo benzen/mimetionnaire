@@ -16,6 +16,7 @@ class MimeStore{
     let createTable = "CREATE TABLE mime (nom text, videoUrl text);"
     let insert = "INSERT INTO mime (nom, videoUrl) VALUES (?, ?);"
     let list = "SELECT nom, videoUrl FROM mime;"
+    let delete = "delete from mime where nom=? and videoURL=?;"
     let db = SQLiteDB.sharedInstance()
     
     func addMime(mime: MimeModel){
@@ -32,6 +33,12 @@ class MimeStore{
             let nom = row["nom"]!.asString()
             let videoUrl = row["videoUrl"]!.asString()
             return MimeModel(nom:nom, videoUrl:videoUrl)
+        }
+    }
+    func delete(mime: MimeModel){
+        let err = db.execute(delete, parameters: [mime.nom, mime.videoUrl])
+        if(err == 0){
+            NSLog("ERROR during deleting mime")
         }
     }
     

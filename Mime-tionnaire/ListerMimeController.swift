@@ -36,7 +36,7 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if segue.identifier == "playVideo" {
+        if (segue.identifier == "playVideo") {
             let indexPath = tableView?.indexPathForSelectedRow()
             let model = self.store.listMime()[indexPath!.row] as MimeModel
             let url = NSURL(string: model.videoUrl)
@@ -44,6 +44,18 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
                 subVC.player = AVPlayer(URL: url)
                 subVC.player.play()
             }
+        }
+    }
+    func tableView(tableView: UITableView!, canEditRowAtIndexPath indexPath: NSIndexPath!) -> Bool {
+        return true
+    }
+    
+    func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
+        if (editingStyle == UITableViewCellEditingStyle.Delete) {
+            // handle delete (by removing the data from your array and updating the tableview)
+            let model = store.listMime()[indexPath.row]
+            store.delete(model)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         }
     }
     
