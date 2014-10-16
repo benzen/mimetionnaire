@@ -3,7 +3,7 @@
 //  Mime-tionnaire
 //
 //  Created by Benjamin Dreux on 2014-10-10.
-//  Copyright (c) 2014 Benjamin Dreux, Pascal Chouinard. All rights reserved.
+//  Copyright (c) 2014 Benjamin Dreux. All rights reserved.
 //
 
 import UIKit
@@ -76,6 +76,7 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
         self.tableView?.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         self.tableView?.reloadData()
     }
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -89,8 +90,6 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
             newBounds!.origin.y += self.searchBar!.bounds.size.height
             self.tableView?.bounds = newBounds!
         })
-        
-    
 
     }
 

@@ -3,7 +3,7 @@
 //  Mime-tionnaire
 //
 //  Created by Benjamin Dreux on 2014-10-11.
-//  Copyright (c) 2014 Benjamin Dreux, Pascal Chouinard. All rights reserved.
+//  Copyright (c) 2014 Benjamin Dreux. All rights reserved.
 //
 
 import Foundation
