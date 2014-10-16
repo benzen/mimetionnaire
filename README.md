@@ -7,13 +7,13 @@ Parce qu'on a tous des amis qui oublie leur mots et qui miment au lieux de parle
 Cette application est surtout pour les gens qui entoure ces mimeurs. Elle visent à crée un dictionnaire
 pour décoder leur mimes.
 
-Ce qu'on peut va pouvoir faire avec mimetionnaire
+Ce qu'on peut faire avec mimetionnaire
 ======================================
 
-- Ajouter un nouveau mime
-- Parcourir la liste de mime
-- Afficher un mime, lire la video
-- Rechercher un mime
+- Ajouter un nouveau mime (avec un nom et une video de la pellicule)
+- Parcourir la liste des mime
+- Rechercher un mime par son nom
+- Afficher un mime / lire la video
 
 Crédits
 =========
