@@ -16,7 +16,8 @@ class MimeStore{
     let createTable = "CREATE TABLE mime (nom text, videoUrl text);"
     let insert = "INSERT INTO mime (nom, videoUrl) VALUES (?, ?);"
     let list = "SELECT nom, videoUrl FROM mime;"
-    let delete = "delete from mime where nom=? and videoURL=?;"
+    let delete = "DELETE FROM mime where nom=? and videoURL=?;"
+    let find = "SELECT nom, videoUrl FROM mime WHERE nom like ?;";
     let db = SQLiteDB.sharedInstance()
     
     func addMime(mime: MimeModel){
@@ -26,8 +27,9 @@ class MimeStore{
         }
     }
     
-    func listMime() -> Array<MimeModel> {
-        let resultSet = db.query(list)
+    func listMime(query: String?) -> Array<MimeModel> {
+        let resultSet =  query!.isEmpty ? db.query(list) : db.query(find, parameters:["\(query!)%"])
+        
         return resultSet.map {
             (row:SQLRow) -> MimeModel in
             let nom = row["nom"]!.asString()

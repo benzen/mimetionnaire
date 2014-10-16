@@ -82,6 +82,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsCancelButton="YES" id="yT0-HO-AEU">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="8rJ-Kc-sve" id="FD6-4K-tKs"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" id="DMK-vx-mZ8">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -110,7 +118,9 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="searchBar" destination="yT0-HO-AEU" id="F6x-EF-6Rj"/>
                         <outlet property="tableView" destination="Rfh-rI-wgx" id="UqU-E4-Lk8"/>
+                        <outletCollection property="searchBar" destination="Rfh-rI-wgx" collectionClass="NSMutableArray" id="Mw6-s1-mgL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -122,7 +132,6 @@
                         <outlet property="searchResultsDelegate" destination="8rJ-Kc-sve" id="Q3W-ZP-orR"/>
                     </connections>
                 </searchDisplayController>
-                <swipeGestureRecognizer direction="left" id="hEv-we-QJE"/>
             </objects>
             <point key="canvasLocation" x="12" y="-353"/>
         </scene>

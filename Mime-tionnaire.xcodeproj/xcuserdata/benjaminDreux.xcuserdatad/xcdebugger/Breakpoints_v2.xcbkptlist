@@ -33,6 +33,162 @@
             endingLineNumber = "13"
             landmarkName = "ListerMimeController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.tableView.getter : Swift.Optional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.395766"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.tableView.setter : Swift.Optional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.395971"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396147"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.__allocating_init (Mime_tionnaire.ListerMimeController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396438"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)() -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.__allocating_init (Mime_tionnaire.ListerMimeController.Type)() -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)() -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.396933"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.__allocating_init (Mime_tionnaire.ListerMimeController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.397058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084857.397183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,11 +198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mime-tionnaire/ListerMimeController.swift"
-            timestampString = "435015849.061275"
+            timestampString = "435153872.945011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +214,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mime-tionnaire/ListerMimeController.swift"
-            timestampString = "435015849.061275"
+            timestampString = "435153872.945011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,11 +230,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mime-tionnaire/ListerMimeController.swift"
-            timestampString = "435015849.061275"
+            timestampString = "435153872.945011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "ListerMimeController"
             landmarkType = "3">
          </BreakpointContent>
@@ -166,13 +322,185 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mime-tionnaire/ListerMimeController.swift"
-            timestampString = "435069526.772472"
+            timestampString = "435153872.945011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "prepareForSegue(_:sender:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mime-tionnaire/ListerMimeController.swift"
+            timestampString = "435084859.2389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ListerMimeController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.tableView.getter : Swift.Optional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.241784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.tableView.setter : Swift.Optional&lt;ObjectiveC.UITableView&gt;"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.242127"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.242346"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.__allocating_init (Mime_tionnaire.ListerMimeController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.242551"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.242752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)() -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.242946"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.__allocating_init (Mime_tionnaire.ListerMimeController.Type)() -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.243143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)() -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.243505"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.243885"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mime_tionnaire.ListerMimeController.__allocating_init (Mime_tionnaire.ListerMimeController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.244276"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc Mime_tionnaire.ListerMimeController.init (Mime_tionnaire.ListerMimeController.Type)(coder : ObjectiveC.NSCoder) -&gt; Mime_tionnaire.ListerMimeController"
+                  moduleName = "Mime-tionnaire"
+                  urlString = "file:///Users/benjaminDreux/depot/code3/mime-tionnaire/Mime-tionnaire/ListerMimeController.swift"
+                  timestampString = "435084859.244585"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
