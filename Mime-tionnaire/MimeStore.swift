@@ -46,9 +46,9 @@ class MimeStore{
     
 
     init(){
-//        let check = db.execute(checkTable)
-//        if(check == 0){
-//            db.execute(createTable)
-//        }
+        let check = db.query(checkTable)
+        if(check.count == 0){
+            db.execute(createTable)
+        }
     }
 }
