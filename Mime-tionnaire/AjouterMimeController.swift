@@ -64,6 +64,7 @@ class AjouterMimeController: UIViewController, UIImagePickerControllerDelegate, 
         // Do any additional setup after loading the view, typically from a nib.
 
         refreshUI()
+        nomTextField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
