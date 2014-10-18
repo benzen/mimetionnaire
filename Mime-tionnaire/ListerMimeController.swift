@@ -26,8 +26,8 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     func searchBarCancelButtonClicked(searchBar: UISearchBar) {
         self.searchBar?.text = nil
-        self.tableView?.reloadData()
         hideSearchBar()
+        self.tableView?.reloadData()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -47,6 +47,7 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+
         if (segue.identifier == "playVideo") {
             let indexPath = tableView?.indexPathForSelectedRow()
             let model = self.store.listMime(searchBar?.text)[indexPath!.row] as MimeModel
@@ -56,6 +57,7 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
                 subVC.player.play()
             }
         }
+        hideSearchBar()
     }
     func tableView(tableView: UITableView!, canEditRowAtIndexPath indexPath: NSIndexPath!) -> Bool {
         return true
@@ -74,23 +76,33 @@ class ListerMimeController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView?.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        self.tableView?.reloadData()
+        hideSearchBar()
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        tableView?.setContentOffset(CGPoint(x:0, y:searchBar!.frame.height), animated: true)
-
+//        hideSearchBar()
+        self.tableView?.reloadData()
     }
-    
-    func hideSearchBar(){
-        UIView.animateWithDuration(0.4, animations: {
-            var newBounds = self.tableView?.bounds
-            newBounds!.origin.y += self.searchBar!.bounds.size.height
-            self.tableView?.bounds = newBounds!
-        })
 
+    func hideSearchBar(){
+        var frame = self.tableView?.frame
+        let isSearchBarVisible = CGRectIntersectsRect(frame!, searchBar!.frame)
+
+        if isSearchBarVisible {
+            let y = self.tableView!.contentOffset.y + self.searchBar!.frame.height
+            let newContentOffset = CGPoint(x:0, y: y)
+            
+            println("DID HIDE")
+            println("old bound \(frame)")
+            println("searchBarHeight \(self.searchBar!.frame.height)")
+            println("contentOffset \(self.tableView!.contentOffset.y)")
+            println("new content offset \(newContentOffset)")
+            println("")
+
+            self.tableView?.setContentOffset( newContentOffset, animated:true)
+
+        }
     }
 
     override func didReceiveMemoryWarning() {

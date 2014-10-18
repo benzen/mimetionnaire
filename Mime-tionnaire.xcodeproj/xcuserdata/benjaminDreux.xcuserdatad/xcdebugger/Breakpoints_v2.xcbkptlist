@@ -322,22 +322,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mime-tionnaire/ListerMimeController.swift"
-            timestampString = "435153872.945011"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "prepareForSegue(_:sender:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Mime-tionnaire/ListerMimeController.swift"
             timestampString = "435084859.2389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
